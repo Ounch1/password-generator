@@ -1,0 +1,38 @@
+body 
+{
+    background-color: #89CFF0;
+    color: aliceblue;
+    font-family: "Lucida Console", sans-serif;
+}
+
+.panel
+{
+    background-color: #4d94cd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 500px;
+    max-height: fit-content;
+    text-align: center;
+}
+
+input[type="submit"]
+{
+    font-family: "Lucida Console", sans-serif;
+    background-color: #89cff090;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover
+{
+    background-color: #89cff0bb;
+}
+
+input[type="submit"]:active
+{
+    background-color: #a7e3ffd6;
+}

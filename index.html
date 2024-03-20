@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fortune</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+    <body>
+        <div class="panel">
+            <h1>Password Generator</h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Ut magnam laboriosam numquam veritatis minima sapiente beatae 
+                iste nobis, adipisci quibusdam deserunt quod qui aperiam quasi 
+                fugiat, necessitatibus fugit molestiae tenetur!
+            </p>
+            
+            <hr>
+                <input type="checkbox" id="cbNumbers">
+                <label for="cbNumbers">Include numbers</label>
+            <br>
+                <input type="checkbox" id="cbCapital">
+                <label for="cbCapital">Include capital letters</label>
+            <br>
+                <input type="range" id="rgAmntChar" min="5" max="20" value="5">
+                <label for="rgAmntChar" id="rgAmntCharLabel">Amount of characters: 5</label>
+            <br>
+                <input type="submit" value="Generate Password" id="btnSubmit">
+                <p id="output">Your password:</p>
+
+            <script src="index.js"></script>
+        </div>
+    </body>
+</html>
